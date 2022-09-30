@@ -17,11 +17,11 @@ class App extends Component {
 	  	return (
 	    	<BrowserRouter>
 	    		<Switch>
-		    		<PublicRoute path='/' exact component={Login} />
+		    		<PublicRoute path='/' exact component={Home} />
 		    		<PublicRoute path='/signup' component={Signup} />
 		    		<PublicRoute path='/forgot' component={Forgot} />
 
-		    		<PrivateRoute path="/home" user={this.props} component={Home} />
+		    		<PrivateRoute path="/login" component={Login} />
 		    		<PrivateRoute path="/profile" user={this.props} component={Profile} />
 	    		</Switch>
 	    	</BrowserRouter>
