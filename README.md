@@ -1,6 +1,9 @@
 # twitter-clone-with-react
 I built a Social Media Web Application that mimicks the features of Twitter {signup, login, forgot password, tweet, like tweet, follow, unfollow, etc}
 
+# Deployment URL
+The project is deployed on vercel at https://twitter-uiclone-react.vercel.app/signup
+
 ## Project setup
 ```
 npm install
